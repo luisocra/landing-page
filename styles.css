@@ -1,0 +1,159 @@
+body {
+    background-image: url(interlaced.png);
+    margin-top: 230px;
+}
+
+#header {
+position: fixed;
+top: 0;
+left: 0;
+background-color: rgba(240, 240, 240, 0.979);
+width: 100%;
+height: 110px;
+}
+#logo {
+font-family: "Alex Brush";
+font-size: 30px;
+position: relative;
+bottom: 30px;
+}
+
+#header-img {
+    float: left;
+}
+#header-txt {
+    padding-top: 10px;
+}
+#nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 1300px;
+bottom: 140px;
+}
+#nav-item {
+    display: inline;
+padding: 5px;
+}
+.nav-btn {
+    height: 60px;
+    width: 130px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(221, 221, 221);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(65, 65, 65);
+}
+.nav-btn:hover {
+    animation-name: color;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes color {
+    100% {
+        background-color: rgb(196, 196, 196);
+        color: black;
+    }
+}
+#nav2 {
+    list-style-type: none;
+    text-align: center;
+}
+#nav2-item {
+    display: inline;
+    padding: 30px;
+}
+.nav2-btn {
+    height: 100px;
+    width: 380px;
+    font-size: 50px;
+    font-family: Monoton;
+    border: none;
+    border-radius: 5px;
+    color: rgb(65, 65, 65);
+    background-color: rgba(221, 221, 221, 0.493);
+    cursor: pointer;
+}
+.nav2-btn:hover {
+    animation-name: color2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes color2 {
+    100% {
+        background-color: rgb(196, 196, 196);
+        color: black;
+    }
+}
+#video {
+   display: block;
+   margin: 0 auto;
+}
+@media (max-width: 700px) {
+    #video {
+        height: 500px;
+    }
+}
+#designs {
+    text-align: center;
+}
+#dtext {
+    font-size: 50px;
+    padding-top: 70px;
+    font-style: italic;
+    text-decoration: underline;
+    
+}
+#candle1 {
+    height: 500px;
+    width: 500px;
+    padding: 40px;
+}
+#candle2 {
+height: 500px;
+width: 500px;
+padding: 40px;
+}
+#candle3 {
+    height: 500px;
+    width: 500px;
+    padding: 40px;
+}
+#persons {
+    text-align: center;
+}
+.persons {
+    width: 500px;
+    height: 500px;
+    padding: 40px;
+}
+#ptext {
+    font-size: 50px;
+    padding-top: 70px;
+    font-style: italic;
+    text-decoration: underline;
+}
+#contact {
+    text-align: center;
+}
+#email {
+    height: 50px;
+    width: 450px;
+    padding: 20px;
+    font-size: 30px;
+}
+#submit {
+    height: 75px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  
+}
